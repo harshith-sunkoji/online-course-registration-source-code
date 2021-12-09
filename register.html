@@ -4,10 +4,10 @@
         <style>
           input{
            background-color: green;
+           
           }
-          input:focus{
-            color-interpolation-filters: auto;
-          }
+          
+          
             table{
                 background-color: rgb(247, 244, 244);
             }
@@ -79,7 +79,7 @@
     <Body>   
         <div class="navbar">
             <a href="file:///D:/github/home.html">Home</a>
-            <a href="">Time table</a>
+            <a href="">Registration status</a>
             <div class="navbar">
             <li><a href="file:///D:/github/login.html">logout</a></li>
             <div class="dropdown">
@@ -87,9 +87,9 @@
                 <i class="fa fa-caret-down"></i>
               </button>
               <div class="dropdown-content">
+                <a href="#">profile</a>
                 <a href="#">feedback</a>
                 <a href="#">help</a>
-                <a href="#">support</a>
               </div>
             </div> 
           </div>  </div> 
@@ -105,24 +105,26 @@
            <table width="900" border="1" cellspacing = "4">
             <tr>
             <th width="350">Faculity name</th>
-            <th width="150">Slot</th>
+            <th width="150">lab+theroy slot</th>
             <th width="150">seats</th>
             <th></th>
         </tr>
             <tr>
-            <td>prof.**********</td>
-            <td align="center">--</td>
-            <td align="center">--</td>
+            <td><form action="http://www.example.com/profile.php">
+              
+               <br />
+               <input type="radio" name="genre" value="rock" 
+               checked="checked" /> prof.**********<br>
+               <input type="radio" name="genre" value="pop" /> 
+               prof.**********
+              </form></td>
+            <td align="center">--<br>--</td>
+            <td align="center">--<br>--</td>
             <td> <input type="button" style="background-color:#1b5e20;color:white;width:100px;
+                height:30px;" value="register"><br><input type="button" style="background-color:#1b5e20;color:white;width:100px;
                 height:30px;" value="register"></td>
             </tr>
-            <tr>
-            <td>prof.**********</td>
-            <td align="center">--</td>
-            <td align="center">--</td>
-            <td> <input type="button" style="background-color:#1b5e20;color:white;width:100px;
-                height:30px;" value="register"></td>
-            </tr>
+           
            </table><br>
            <a href="file:///D:/github/home.html">
             <input type="button" style="background-color:#311b92;color:white;width:100px;
